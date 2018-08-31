@@ -6,3 +6,16 @@ int main()
     printf("HEY");
     
 }
+
+
+#include<stdio.h>
+void main()
+{
+    int a,b,sum;
+    printf("enter two numbers");
+    scanf("%i,%i",&a,&b);
+    sum =a+b;
+    printf( "Sum is %d\n", sum ); 
+    printf(" print a and b");
+    return 0;
+}
